@@ -1,34 +1,55 @@
 ---
 layout: home
-title: Home
+title: Full-Stack-Skills
 hero:
   name: "Full-Stack-Skills"
-  text: "Full-Stack Skills Marketplace"
-  tagline: "Full-stack Agent Skills marketplace (46 repos / 460+ SKILL.md)"
+  text: "A full-stack skill marketplace for coding agents"
+  tagline: "Frontend, backend, Rust, Java, mobile, DevOps, testing, DDD, SDD, and design tooling as independently installable packages."
   actions:
     - theme: brand
-      text: Get Started
+      text: Get started
       link: /en/guide/getting-started
     - theme: alt
-      text: View Repositories
+      text: Repository catalog
       link: /en/repositories
+    - theme: alt
+      text: Ecosystem architecture
+      link: /en/guide/ecosystem
 features:
-  - icon: 🚀
-    title: High-Frequency Tools
-    details: Practical Rust crates for enterprise-grade applications
+  - icon: 🧰
+    title: Whole delivery lifecycle
+    details: UI, backend, data, testing, DevOps, docs, desktop, mobile, and architecture methods.
   - icon: 📦
-    title: Type Safe
-    details: Compile-time error catching with Rust's strong type system
-  - icon: 🔧
-    title: Production Ready
-    details: Full test coverage, CI/CD, complete documentation
+    title: Package autonomy
+    details: Each domain repository evolves, installs, and accepts contributions independently.
+  - icon: 🔍
+    title: Task-triggered loading
+    details: Agents select a minimal skill set from descriptions, then read full instructions and references.
 ---
 
-## About
+## What exists today
 
-Full-stack Agent Skills marketplace (46 repos / 460+ SKILL.md)
+- **45** public projects
+- **564** SKILL.md files
+- Catalog refreshed **2026-07-22**
 
-## Quick Links
+- The 45 public packages currently contain 564 local `SKILL.md` files; older 42/460/454 counts are obsolete.
+- The former monorepo is split into independent repositories so users install only the domains they need.
+- Skills are not runtime dependencies; they give agents workflows, constraints, references, scripts, and assets.
 
-- [GitHub Organization](https://github.com/full-stack-skills)
-- [.github profile README](https://github.com/full-stack-skills/.github/blob/main/profile/README.md)
+> This site cross-checks the repositories currently visible on GitHub with local source workspaces. Availability is governed by each repository README, releases, and license.
+
+## Choose an entry point
+
+| Goal | Next step |
+|---|---|
+| Understand the ecosystem | [Read architecture and boundaries](/en/guide/ecosystem) |
+| Choose a concrete project | [Browse the repository catalog](/en/repositories) |
+| Install or run something | [Open the getting-started guide](/en/guide/getting-started) |
+| Submit a fix or capability | [Read the contributing guide](/en/guide/contributing) |
+
+## Organization links
+
+- [GitHub](https://github.com/full-stack-skills)
+- [All repositories](https://github.com/orgs/full-stack-skills/repositories)
+- [This site source](https://github.com/full-stack-skills/full-stack-skills.github.io)

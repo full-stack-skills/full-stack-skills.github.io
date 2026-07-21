@@ -1,23 +1,27 @@
 # 快速开始
 
-欢迎使用 Full-Stack-Skills！
+这里仅提供已经能从当前仓库状态证明的入口。版本、权限或发布状态不确定时，示例会明确使用 Git revision、源码构建或状态检查。
 
-## 这是什么？
+## 1. 安装一个技能包
 
-本组织托管一组 Rust crate / 仓库，专注于 **[Full-Stack Skills 市场]**。
+按技术栈安装，不需要克隆整个市场。
 
-## 如何使用
+```bash
+npx skills add full-stack-skills/vue-skills
+npx skills add full-stack-skills/tauri-skills
+npx skills add full-stack-skills/spring-skills
+```
 
-1. 浏览 [仓库列表](/repositories) 查看所有可用项目
-2. 选择你需要的 crate
-3. 按照各仓库 README 的说明集成到你的项目
+## 2. 只安装某个技能
 
-## 反馈与支持
+使用 `--skill` 精确控制进入项目的技能。
 
-- 🐛 **Bug 反馈**：[GitHub Issues](https://github.com/full-stack-skills/.github/issues)
-- 💬 **讨论与提案**：[GitHub Discussions](https://github.com/orgs/full-stack-skills/discussions)
-- 📧 **邮件**：partmeai@gmail.com
+```bash
+npx skills add full-stack-skills/vue-skills --skill vue3
+```
 
----
+## 下一步
 
-> 本文档是自动生成的。详细 API 请参考各仓库的 README。
+- [理解项目之间的关系](/guide/ecosystem)
+- [查看完整仓库目录](/repositories)
+- [准备贡献](/guide/contributing)

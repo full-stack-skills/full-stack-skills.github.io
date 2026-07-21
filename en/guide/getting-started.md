@@ -1,23 +1,27 @@
-# Getting Started
+# Getting started
 
-Welcome to Full-Stack-Skills!
+This guide includes only entry points supported by the current repository state. When versions, access, or release status are uncertain, examples explicitly use Git revisions, source builds, or status checks.
 
-## What is this?
+## 1. Install one package
 
-This organization hosts a collection of Rust crates / repositories focused on **[Full-Stack Skills Marketplace]**.
+Install by technology stack without cloning the entire marketplace.
 
-## How to use
+```bash
+npx skills add full-stack-skills/vue-skills
+npx skills add full-stack-skills/tauri-skills
+npx skills add full-stack-skills/spring-skills
+```
 
-1. Browse the [Repositories list](/en/repositories) to see all available projects
-2. Pick the crate you need
-3. Follow the README instructions in each repository for integration
+## 2. Install one skill
 
-## Feedback & Support
+Use `--skill` to control exactly what enters the project.
 
-- 🐛 **Bug reports**: [GitHub Issues](https://github.com/full-stack-skills/.github/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/orgs/full-stack-skills/discussions)
-- 📧 **Email**: partmeai@gmail.com
+```bash
+npx skills add full-stack-skills/vue-skills --skill vue3
+```
 
----
+## Next steps
 
-> This document is auto-generated. For detailed API, see each repository's README.
+- [Understand how projects relate](/en/guide/ecosystem)
+- [Browse the full repository catalog](/en/repositories)
+- [Prepare a contribution](/en/guide/contributing)

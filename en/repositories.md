@@ -1,6 +1,6 @@
 # Repository catalog
 
-> Catalog generated on 2026-08-06. Public repositories come from the current GitHub state; private projects appear only when this organization explicitly includes them as previews.
+> Catalog generated on 2026-08-07. Public repositories come from the current GitHub state; private projects appear only when this organization explicitly includes them as previews.
 
 > Skill counts come from actual `SKILL.md` files in the corresponding local public-repository checkout; `—` means no local checkout was available for counting.
 

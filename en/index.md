@@ -29,9 +29,9 @@ features:
 
 ## What exists today
 
-- **45** public projects
-- **564** SKILL.md files
-- Catalog refreshed **2026-07-22**
+- **46** public projects
+- **586** SKILL.md files
+- Catalog refreshed **2026-08-06**
 
 - The 45 public packages currently contain 564 local `SKILL.md` files; older 42/460/454 counts are obsolete.
 - The former monorepo is split into independent repositories so users install only the domains they need.
